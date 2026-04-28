@@ -1,0 +1,14 @@
+package com.taskly_u.auth_service.api.dto.request;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class RequestPasswordReset {
+    private String email;
+}
